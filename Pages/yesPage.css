@@ -1,0 +1,59 @@
+body {
+    background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
+    background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
+    font-family: 'Klee One', cursive;
+}
+
+#container h1 {
+    font-family: 'Allison', cursive;
+    color: #B97A95;
+    text-align: center;
+    font-size: 90px;
+    word-spacing: 20px;
+    letter-spacing: 10px;
+}
+
+#Stars {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Star1, #Star2, #Star3, #Star4, #Star5 {
+  color: #F5FDB0;
+  font-size: 4em;
+  opacity: 0.3;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+#container {
+    background-color: #F6AE99;
+    opacity: 0.8;
+    width: 45%;
+    height: 35em;
+    border-radius: 20px;
+    position: relative;
+    top: 140px;
+    left: 470px;
+    transition: 2s ease-out;
+}
+
+#btn {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 250px;
+    height: 80px;
+    background-color: #FF4848;
+    opacity: 0.6;
+    border-radius: 6px;
+    font-size: 1.3em;
+    transform: translate(110%, 90%);
+    transition: all .8s cubic-bezier(0.67, 0.17, 0.40, 0.83);
+}
+
+#btn:hover {
+    cursor: pointer;
+}
