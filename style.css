@@ -1,11 +1,74 @@
 body {
-    background-color: aqua;
+  background: #D38312;
+  background: -webkit-linear-gradient(to right, #A83279, #D38312);
+  background: linear-gradient(to right, #A83279, #D38312);
+  font-family: 'Klee One', cursive;
 }
 
-div {
-    height: 5em;
-    width: 5em;
-    border: black solid 5px;
-    border-radius: 50%;
-    margin-bottom: 1em;
+#container {
+  background-color: #F6AE99;
+  opacity: 0.8;
+  width: 30%;
+  transform: translate(110%, 100%);
+  padding-top: 1em;
+  padding-bottom: 2em;
+  padding-left: 25px;
+  border: #F6AE99 solid 2px;
+  border-radius:20px;
+}
+
+#container .yes, .no {
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: 0.1s ease-out;
+  cursor: pointer;
+}
+
+.main {
+  font-family: 'Allison', cursive;
+  font-size: 100px;
+  text-align: center;
+  transform: translate(0, 130%);
+  color: #C2F784;
+}
+
+#btn, #ticker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(80%, 20%);
+}
+
+#btn {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 200px;
+  height: 60px;
+  background-color: #FF4848;
+  opacity: 0.6;
+  border-radius: 6px;
+  transition: all .8s cubic-bezier(0.67, 0.17, 0.40, 0.83);
+  margin-right: 150px;
+  font-size: 2em;
+}
+
+#btn svg {
+  transform: rotate(180deg);
+}
+
+#btn:hover {
+  cursor: pointer;
+}
+
+#ticker h2 {
+  font-size: 1.3em;
+  font-weight: lighter;
+  margin-left: -83px;
+  margin-bottom: 130px;
+  color: white;
+  transition: all .9s;
 }
