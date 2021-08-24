@@ -1,23 +1,16 @@
 var num = "ntg";
 const yesFun = () => {
-    if (num == "no") {
-        console.log("error");
-    }
-    else{
         $(".yes").css("backgroundColor", "#9DDAC6")
+        $(".no").css("backgroundColor", "#F6AE99")
+        $(".no").css("opacity", "0.8")
         num = "yes"
-    } 
 }
 
 const noFun = () => {
-    if (num == "yes") {
-        console.log("error");
-    }
-    else{
         $(".no").css("backgroundColor", "#9DDAC6")
+        $(".yes").css("backgroundColor", "#F6AE99")
+        $(".yes").css("opacity", "0.8")
         num = "no"
-
-    } 
 }
 
 const subFun = () => {
