@@ -72,3 +72,27 @@ body {
   color: white;
   transition: all .9s;
 }
+
+@media screen and (max-width: 410px){
+  .main {
+    transform: translate(0, 20%);
+  }
+
+  #container {
+    width: 80%;
+    transform: translate(7%, 40%);
+  }
+
+  #btn, #ticker {
+    transform: translate(20%, 20%);
+  }
+
+  #ticker h2 {
+    font-size: 1.3em;
+    font-weight: lighter;
+    margin-left: -40px;
+    margin-bottom: 130px;
+    color: white;
+    transition: all .9s;
+  }
+}
