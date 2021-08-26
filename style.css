@@ -43,10 +43,6 @@ body {
   transform: translate(80%, 20%);
 }
 
-svg {
-  transform: rotate(180deg)
-}
-
 #btn {
   width: 200px;
   height: 60px;
