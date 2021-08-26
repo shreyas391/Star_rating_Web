@@ -16,13 +16,10 @@ const noFun = () => {
 const subFun = () => {
     if (num == "yes" || num == "no") {
     const btn = document.getElementById("btn")
-    btn.style.transform = "rotate(180deg)"
     btn.style.backgroundColor = "green"
     btn.style.width = "80px"
     btn.style.borderRadius = "50%"
     btn.style.height = "80px"
-    btn.style.position = "relative"
-    btn.style.left = "41%"
     btn.innerHTML = "<svg width=\"58\" height=\"45\" viewBox=\"0 0 58 45\" xmlns=\"http://www.w3.org/2000/svg\"><path fill=\"#fff\" fill-rule=\"nonzero\" d=\"M19.11 44.64L.27 25.81l5.66-5.66 13.18 13.18L52.07.38l5.65 5.65\"/></svg>"
 
     var all = 1;
