@@ -8,8 +8,10 @@ body {
 #container {
   background-color: #F6AE99;
   opacity: 0.8;
-  width: 30%;
-  transform: translate(110%, 100%);
+  max-width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translate(2%, 100%);
   padding-top: 1em;
   padding-bottom: 2em;
   padding-left: 25px;
@@ -42,22 +44,17 @@ body {
 }
 
 #btn {
-  display: flex;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
   width: 200px;
   height: 60px;
   background-color: #FF4848;
   opacity: 0.6;
   border-radius: 6px;
+  transform: translateX(-5%);
   transition: all .8s cubic-bezier(0.67, 0.17, 0.40, 0.83);
-  margin-right: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: -20px;
   font-size: 2em;
-}
-
-#btn svg {
-  transform: rotate(180deg);
 }
 
 #btn:hover {
@@ -73,14 +70,19 @@ body {
   transition: all .9s;
 }
 
-@media screen and (max-width: 410px){
+@media screen and (max-width: 699px){
   .main {
     transform: translate(0, 20%);
   }
 
   #container {
-    width: 80%;
-    transform: translate(7%, 40%);
+    max-width: 65%;
+    transform: translate(-0.1%, 40%);
+  }
+
+  #btn {
+    margin-left: 14%;
+    margin-bottom: -5px;
   }
 
   #btn, #ticker {
@@ -89,10 +91,30 @@ body {
 
   #ticker h2 {
     font-size: 1.3em;
-    font-weight: lighter;
     margin-left: -40px;
-    margin-bottom: 130px;
-    color: white;
-    transition: all .9s;
+  }
+}
+
+@media screen and (min-width: 700px){
+  #container {
+    min-width: 478px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  #btn {
+    margin-left: 4%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #btn {
+    margin-left: -5%;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  #btn {
+    margin-left: -17%;
   }
 }
