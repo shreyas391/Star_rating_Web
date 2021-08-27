@@ -16,7 +16,7 @@ const noFun = () => {
 const subFun = () => {
     if (num == "yes" || num == "no") {
     const btn = document.getElementById("btn")
-    btn.style.transform = "rotate(180deg)"
+    btn.style.transform = "rotate(360deg)"
     btn.style.backgroundColor = "green"
     btn.style.width = "80px"
     btn.style.borderRadius = "50%"
