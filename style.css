@@ -70,7 +70,7 @@ body {
   transition: all .9s;
 }
 
-@media screen and (max-width: 699px){
+@media screen and (max-width: 480px){
   .main {
     transform: translate(0, 20%);
   }
