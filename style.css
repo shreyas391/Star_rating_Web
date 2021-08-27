@@ -72,14 +72,14 @@ body {
 
 @media screen and (max-width: 699px){
   .main {
-    transform: translate(0, 1%);
+    transform: translate(0, -25%);
     font-size: 80px;
   }
 
   #container {
     max-width: 65%;
     min-width: 90%;
-    transform: translate(-0.1%, 20%);
+    transform: translate(-0.1%, -20%);
   }
 
   #btn {
