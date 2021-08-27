@@ -121,7 +121,7 @@ body {
   }
 }
 
-@media screen and (max-width: 350px){
+@media screen and (max-width: 370px){
   #btn {
     margin-left: 0%;
   }
