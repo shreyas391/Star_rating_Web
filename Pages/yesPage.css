@@ -57,3 +57,245 @@ body {
 #btn:hover {
     cursor: pointer;
 }
+
+#container2 h1 {
+    font-family: 'Allison', cursive;
+    color: #B97A95;
+    text-align: center;
+    font-size: 90px;
+    word-spacing: 20px;
+    letter-spacing: 10px;
+}
+
+#Stars2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10em;
+    padding-left: 13em;
+}
+
+#Star11, #Star22, #Star33, #Star44, #Star55 {
+  color: #F5FDB0;
+  font-size: 4em;
+  opacity: 0.3;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+#container2 {
+    background: rgba(255, 255, 255, 0.1);
+    opacity: 0.8;
+    width: 95%;
+    height: 35em;
+    border-radius: 20px;
+    position: relative;
+    top: 140px;
+    right: -130em;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: 1.8s ease-out;
+}
+
+#btn2 {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 250px;
+    height: 80px;
+    background-color: #FF4848;
+    border-radius: 6px;
+    font-size: 1.3em;
+    transform: translate(110%, 80%);
+    transition: all .8s cubic-bezier(0.67, 0.17, 0.40, 0.83);
+}
+
+#btn2:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+#container3 h1 {
+    font-family: 'Allison', cursive;
+    color: #B97A95;
+    text-align: center;
+    font-size: 90px;
+    word-spacing: 20px;
+    letter-spacing: 10px;
+}
+
+#Stars3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10em;
+    padding-left: 13em;
+}
+
+#Star111, #Star222, #Star333, #Star444, #Star555 {
+  color: #F5FDB0;
+  font-size: 4em;
+  opacity: 0.3;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+#container3 {
+    background: rgba(255, 255, 255, 0.1);
+    opacity: 0.8;
+    width: 55%;
+    height: 35em;
+    border-radius: 20px;
+    position: relative;
+    top: 140px;
+    right: -130em;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: 1.8s ease-out;
+}
+
+#btn3 {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 250px;
+    height: 80px;
+    background-color: #FF4848;
+    border-radius: 6px;
+    font-size: 1.3em;
+    transform: translate(112%, 80%);
+    transition: all .8s cubic-bezier(0.67, 0.17, 0.40, 0.83);
+}
+
+#btn3:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+#container4 h1 {
+    font-family: 'Allison', cursive;
+    color: #B97A95;
+    text-align: center;
+    font-size: 90px;
+    word-spacing: 20px;
+    letter-spacing: 10px;
+}
+
+#Stars4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10em;
+    padding-left: 13em;
+}
+
+#Star1111, #Star2222, #Star3333, #Star4444, #Star5555 {
+  color: #F5FDB0;
+  font-size: 4em;
+  opacity: 0.3;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+#container4 {
+    background: rgba(255, 255, 255, 0.1);
+    opacity: 0.8;
+    width: 55%;
+    height: 35em;
+    border-radius: 20px;
+    position: relative;
+    top: 140px;
+    right: -130em;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: 1.8s ease-out;
+}
+
+#btn4 {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 250px;
+    height: 80px;
+    background-color: #FF4848;
+    border-radius: 6px;
+    font-size: 1.3em;
+    transform: translate(120%, 80%);
+    transition: all .8s cubic-bezier(0.67, 0.17, 0.40, 0.83);
+}
+
+#btn4:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
+#container5 h1 {
+    font-family: 'Allison', cursive;
+    color: #B97A95;
+    text-align: center;
+    font-size: 90px;
+    word-spacing: 20px;
+    letter-spacing: 10px;
+}
+
+#Stars5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10em;
+    padding-left: 13em;
+}
+
+#Star11111, #Star22222, #Star33333, #Star44444, #Star55555 {
+  color: #F5FDB0;
+  font-size: 4em;
+  opacity: 0.3;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+#container5 {
+    background: rgba(255, 255, 255, 0.1);
+    opacity: 0.8;
+    width: 55%;
+    height: 35em;
+    border-radius: 20px;
+    position: relative;
+    top: 140px;
+    right: -130em;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: 1.8s ease-out;
+}
+
+#btn5 {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 250px;
+    height: 80px;
+    background-color: #FF4848;
+    border-radius: 6px;
+    font-size: 1.3em;
+    transform: translate(120%, 80%);
+    transition: all .8s cubic-bezier(0.67, 0.17, 0.40, 0.83);
+}
+
+#btn5:hover {
+    cursor: pointer;
+}
