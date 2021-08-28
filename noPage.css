@@ -1,0 +1,20 @@
+body {
+    background-color: #8787A3;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    transform: translate(-2%, 90%);
+}
+
+#four {
+    margin-bottom: 2%;
+}
+
+#Sorry {
+    margin-bottom: 2%;
+}
