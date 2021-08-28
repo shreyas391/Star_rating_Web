@@ -4,6 +4,10 @@ body {
     font-family: 'Klee One', cursive;
 }
 
+#content {
+    display: flex;
+}
+
 #container h1 {
     font-family: 'Allison', cursive;
     color: #B97A95;
@@ -17,6 +21,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-right: 10em;
+    padding-left: 13em;
 }
 
 #Star1, #Star2, #Star3, #Star4, #Star5 {
@@ -26,17 +32,17 @@ body {
   margin-right: 15px;
   cursor: pointer;
 }
-
+/* #F6AE99 */
 #container {
-    background-color: #F6AE99;
+    background: rgba(255, 255, 255, 0.1);
     opacity: 0.8;
     width: 45%;
-    height: 35em;
     border-radius: 20px;
     position: relative;
-    top: 140px;
-    left: 470px;
-    transition: 2s ease-out;
+    top: 10em;
+    left: 25%;
+    transition: 1.5s ease-out;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
 }
 
 #btn {
@@ -47,15 +53,62 @@ body {
     width: 250px;
     height: 80px;
     background-color: #FF4848;
-    opacity: 0.6;
     border-radius: 6px;
     font-size: 1.3em;
     transform: translate(110%, 90%);
-    transition: all .8s cubic-bezier(0.67, 0.17, 0.40, 0.83);
+    transition: .8s cubic-bezier(0.67, 0.17, 0.40, 0.83);
 }
 
 #btn:hover {
     cursor: pointer;
+}
+
+@media screen and (max-width: 699px){
+    #container {
+        max-width: 27em;
+        top: 8%;
+        left: 6%;
+    }
+
+    #Stars {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-right: 0.5em;
+        padding-left: 0.5em;
+    }
+
+    #Star1, #Star2, #Star3, #Star4, #Star5 {
+        color: #F5FDB0;
+        font-size: 3em;
+        opacity: 0.3;
+        margin-right: 15px;
+        cursor: pointer;
+      }
+
+    #container h1 {
+        font-family: 'Allison', cursive;
+        color: #B97A95;
+        text-align: center;
+        font-size: 60px;
+        word-spacing: 20px;
+        letter-spacing: 10px;
+    }
+
+    #btn {
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        width: 200px;
+        height: 70px;
+        background-color: #FF4848;
+        border-radius: 6px;
+        font-size: 1.3em;
+        transform: translate(90%, 90%);
+        transition: .8s cubic-bezier(0.67, 0.17, 0.40, 0.83);
+    }
+    
 }
 
 #container2 h1 {
@@ -71,6 +124,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-right: 10em;
+    padding-left: 13em;
 }
 
 #Star11, #Star22, #Star33, #Star44, #Star55 {
@@ -82,15 +137,16 @@ body {
 }
 
 #container2 {
-    background-color: #F6AE99;
+    background: rgba(255, 255, 255, 0.1);
     opacity: 0.8;
-    width: 45%;
+    width: 95%;
     height: 35em;
     border-radius: 20px;
     position: relative;
     top: 140px;
-    left: 470px;
-    transition: 2s ease-out;
+    right: -130em;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: 1.8s ease-out;
 }
 
 #btn2 {
@@ -101,22 +157,15 @@ body {
     width: 250px;
     height: 80px;
     background-color: #FF4848;
-    opacity: 0.6;
     border-radius: 6px;
     font-size: 1.3em;
-    transform: translate(110%, 90%);
+    transform: translate(110%, 80%);
     transition: all .8s cubic-bezier(0.67, 0.17, 0.40, 0.83);
 }
 
 #btn2:hover {
     cursor: pointer;
 }
-
-
-
-
-
-
 
 #container3 h1 {
     font-family: 'Allison', cursive;
@@ -174,13 +223,6 @@ body {
     cursor: pointer;
 }
 
-
-
-
-
-
-
-
 #container4 h1 {
     font-family: 'Allison', cursive;
     color: #B97A95;
@@ -236,11 +278,6 @@ body {
 #btn4:hover {
     cursor: pointer;
 }
-
-
-
-
-
 
 #container5 h1 {
     font-family: 'Allison', cursive;
