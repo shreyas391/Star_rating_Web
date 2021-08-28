@@ -71,8 +71,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-right: 10em;
-    padding-left: 13em;
 }
 
 #Star11, #Star22, #Star33, #Star44, #Star55 {
@@ -84,16 +82,15 @@ body {
 }
 
 #container2 {
-    background: rgba(255, 255, 255, 0.1);
+    background-color: #F6AE99;
     opacity: 0.8;
-    width: 95%;
+    width: 45%;
     height: 35em;
     border-radius: 20px;
     position: relative;
     top: 140px;
-    right: -130em;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
-    transition: 1.8s ease-out;
+    left: 470px;
+    transition: 2s ease-out;
 }
 
 #btn2 {
@@ -104,9 +101,10 @@ body {
     width: 250px;
     height: 80px;
     background-color: #FF4848;
+    opacity: 0.6;
     border-radius: 6px;
     font-size: 1.3em;
-    transform: translate(110%, 80%);
+    transform: translate(110%, 90%);
     transition: all .8s cubic-bezier(0.67, 0.17, 0.40, 0.83);
 }
 
